@@ -1,10 +1,10 @@
 # FitFile2DB
 
 ```markdown
-Autor:          Maik 'Schrottie' Bischoff
-Beschreibung:   Parse Garmin .fit files and write the data to a CSV file or database.
+Author:         Maik 'Schrottie' Bischoff
+Description:    Parse Garmin .fit files and write the data to a CSV file or database.
 Version:        0.2
-Stand:          06.04.2023
+Date :          06.04.2023
 ```
 ##### ToDo:
 
