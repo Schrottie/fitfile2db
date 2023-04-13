@@ -5,7 +5,7 @@ Author:         Maik 'Schrottie' Bischoff
 Decription:     Parse Garmin .fit files and write the data to a CSV file or database.
 Version:        0.3
 Date:           13.04.2023
-Requires:       <a href="https://github.com/dtcooper/python-fitparse">dtcooper/python-fitparse</a>
+Requires:       dtcooper/python-fitparse (https://github.com/dtcooper/python-fitparse)
 ```
 ##### ToDo:
 
