@@ -9,7 +9,16 @@ Requires:       [dtcooper/python-fitparse](https://github.com/dtcooper/python-fi
 ```
 ##### How to use:
 
-Just download script an (default) database, set up variables and run. :-)
+Just download script and (default) database, set up variables and run. :-)
+
+##### Whats next? Wishes?
+
+<ul>
+    <li>specifying the data types of known fields</li>
+    <li>logging of all steps in the database</li>
+    <li>separation of path and file name of the known files</li>
+    <li>different tables for different .fit data sources (e.g. Fenix watch for running, Edge with radar for cycling, etc.) - or alternatively: an additional field in the database table in which the type of sport and/or origin of the .fit file is specified</li>
+</ul>
 
 ##### Change-/Versionlog:
 
