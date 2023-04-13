@@ -1,10 +1,11 @@
-# FitFile2DB
+# FitFile2SQLite
 
 ```markdown
-Autor:          Maik 'Schrottie' Bischoff
-Beschreibung:   Parse Garmin .fit files and write the data to a CSV file or database.
+Author:         Maik 'Schrottie' Bischoff
+Decription:     Parse Garmin .fit files and write the data to a CSV file or database.
 Version:        0.3
-Stand:          13.04.2023
+Date:           13.04.2023
+Requires:       <a href="https://github.com/dtcooper/python-fitparse">dtcooper/python-fitparse</a>
 ```
 ##### ToDo:
 
