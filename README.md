@@ -1,21 +1,36 @@
 # FitFile2DB
 
 ```markdown
-Author:         Maik 'Schrottie' Bischoff
-Description:    Parse Garmin .fit files and write the data to a CSV file or database.
-Version:        0.2
-Date :          06.04.2023
+Autor:          Maik 'Schrottie' Bischoff
+Beschreibung:   Parse Garmin .fit files and write the data to a CSV file or database.
+Version:        0.3
+Stand:          13.04.2023
 ```
 ##### ToDo:
 
 <ul style="font-size: 85%;font-family: monospace">
-    <li>Function to create a table in the database with the fields from the .fit-file.</li>
-    <li>Function for checking whether all fields from the current .fit-file exist in an existing table, if necessary updating the table with the new fields.</li>
+    <li>...</li>
 </ul>
 
 ##### Change-/Versionlog:
 
 <table>
+    <tr>
+        <td>
+            <span style="font-size: 85%;font-family: monospace">0.3:</span>
+        </td>
+        <td>
+            <ul style="font-size: 85%;font-family: monospace">
+                <li>Added function to convert mph to kph</li>
+                <li>Added a function for write data into database.
+                    <ul>
+                        <li>convert some fields to correct datatype</li>
+                        <li>check whether all fields from the current .fit-file exist in an existing table, if necessary updating the table with the new fields</li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <span style="font-size: 85%;font-family: monospace">0.2:</span>
