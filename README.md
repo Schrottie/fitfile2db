@@ -7,11 +7,9 @@ Version:        0.3
 Date:           13.04.2023
 Requires:       [dtcooper/python-fitparse](https://github.com/dtcooper/python-fitparse)
 ```
-##### ToDo:
+##### How to use:
 
-<ul style="font-size: 85%;font-family: monospace">
-    <li>...</li>
-</ul>
+Just download script an (default) database, set up variables and run. :-)
 
 ##### Change-/Versionlog:
 
