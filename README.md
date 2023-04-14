@@ -11,6 +11,11 @@ Requires:       [dtcooper/python-fitparse](https://github.com/dtcooper/python-fi
 
 Just download script and (default) database, set up variables and run. :-)
 
+## Background:
+
+The script was primarily created in order to be able to evaluate the radar data of a Garmin Varia radar. In order to have the data in the .fit file, the [MyBikeRadarTraffic](https://apps.garmin.com/en-US/apps/c5d949c3-9acb-4e00-bb2d-c3b871e9e733) data field must be installed and used at least once (it does not matter whether it is used on a visible or hidden page).
+However, it can of course also be used to aggregate the data for other purposes and then use it via CSV export or directly from the SQLite database.
+
 ## Whats next? Wishes?
 
 <ul>
