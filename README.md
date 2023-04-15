@@ -19,7 +19,7 @@ However, it can of course also be used to aggregate the data for other purposes 
 ## Whats next? Wishes?
 
 <ul>
-    <li>use PostgreSQL for much more performance than SQLite (with sqitch for all those who have no pgsql</li>
+    <li>use PostgreSQL for much more performance than SQLite (with switch between sqlite and pgsql for all those who have no pgsql</li>
     <li>specifying the data types of known fields</li>
     <li>logging of all steps in the database</li>
     <li>separation of path and file name of the known files</li>
