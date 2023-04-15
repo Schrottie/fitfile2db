@@ -23,6 +23,7 @@ However, it can of course also be used to aggregate the data for other purposes 
     <li>logging of all steps in the database</li>
     <li>separation of path and file name of the known files</li>
     <li>different tables for different .fit data sources (e.g. Fenix watch for running, Edge with radar for cycling, etc.) - or alternatively: an additional field in the database table in which the type of sport and/or origin of the .fit file is specified</li>
+    <li>Creation of tables with the essential data for different activities (calculation of total time, total distance, etc.).</li>
 </ul>
 
 ## Change-/Versionlog:
