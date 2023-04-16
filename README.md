@@ -1,4 +1,4 @@
-# FitFile2SQLite
+# FitFile2DB
 
 ```markdown
 Author:         Maik 'Schrottie' Bischoff
