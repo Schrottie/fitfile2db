@@ -3,8 +3,8 @@
 ```markdown
 Author:         Maik 'Schrottie' Bischoff
 Decription:     Parse Garmin .fit files and write the data to a CSV file or database.
-Version:        0.4
-Date:           15.04.2023
+Version:        0.5
+Date:           16.04.2023
 Requires:       [dtcooper/python-fitparse](https://github.com/dtcooper/python-fitparse)
 ```
 ## How to use:
@@ -29,6 +29,17 @@ However, it can of course also be used to aggregate the data for other purposes 
 ## Change-/Versionlog:
 
 <table>
+    <tr>
+        <td>
+            <span style="font-size: 85%;font-family: monospace">0.5:</span>
+        </td>
+        <td>
+            <ul style="font-size: 85%;font-family: monospace">
+                <li>Added function to use PostgreSQL instead of SQLite3.</li>
+                <li>Renamed project to FITFILE2DB.
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <span style="font-size: 85%;font-family: monospace">0.4:</span>
