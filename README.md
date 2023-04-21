@@ -3,8 +3,8 @@
 ```markdown
 Author:         Maik 'Schrottie' Bischoff
 Decription:     Parse Garmin .fit files and write the data to a CSV file or database.
-Version:        0.6
-Date:           17.04.2023
+Version:        0.7
+Date:           21.04.2023
 Requires:       [dtcooper/python-fitparse](https://github.com/dtcooper/python-fitparse)
 ```
 ## How to use:
@@ -30,15 +30,27 @@ However, it can of course also be used to aggregate the data for other purposes 
 <table>
     <tr>
         <td>
+            <span style="font-size: 85%;font-family: monospace">0.7:</span>
+        </td>
+        <td>
+            <ul style="font-size: 85%;font-family: monospace">
+                <li>Added MAX and AVG fields to the totals table. If there was multiple max fields, the highest value would taken, if there was multiple avg fields, the average of all these fields would taken and written to database</li>
+                <li>Added table fitfile_userdata with some userdata from fit file (height, weight *hihi*, sleep_time and so on)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
             <span style="font-size: 85%;font-family: monospace">0.6:</span>
         </td>
         <td>
             <ul style="font-size: 85%;font-family: monospace">
                 <li>Added (simple) error logging function.</li>
-                <li>Extension of the database with an 'id' field (autoincrement, not null, primary key) and adjustment of the write function because this field does not exist in the dataframe..</li>
+                <li>Extension of the database with an 'id' field (autoincrement, not null, primary key) and adjustment of the write function because this field does not exist in the dataframe.</li>
             </ul>
         </td>
     </tr>
+    <tr>
     <tr>
         <td>
             <span style="font-size: 85%;font-family: monospace">0.5:</span>
